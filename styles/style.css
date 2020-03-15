@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	height: 100vh;
+	width: 100vw;
+
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/login-background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.school-logo,
+.login-form {
+	margin-bottom: auto;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border: 3px solid #fff;
+	border-radius: 5px;
+	padding: 50px 80px;
+	margin-top: -25px;
+}
+
+
+.login-form > .sign-in {
+	text-transform: capitalize;
+}
+
+.login-form label {
+	margin: 10px;
+	font-size: 30px;
+}
+
+input[type="email"],
+input[type="text"] {
+	padding: 15px;
+	width: 30em;
+	border-radius: 10px;
+	margin-left: -5px;
+	background-color: transparent;
+	color: #fff;
+	font-size: 15px;
+}
+
+input::placeholder {
+	color: #fff;
+	font-size: 18px;
+}
+
+#loginBtn {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	padding: 15px;
+	width: 90%;
+}
+
+#loginBtn:hover {
+	background-color: #478af5;
+
+}
+
+p {
+	margin-bottom: auto;
+}
+
+.forgot-password,
+.need-help {
+	text-decoration: none;
+	font-size: 15px;
+	color: #478af5;
+}
+
+.forgot-password:hover,
+.need-help:hover {
+	text-decoration: underline;
+}
+
