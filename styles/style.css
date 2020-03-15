@@ -101,3 +101,10 @@ p {
 	text-decoration: underline;
 }
 
+.sign-in,
+#loginBtn,
+.forgot-password,
+.need-help {
+	font-weight: bold;
+}
+
