@@ -25,6 +25,10 @@ body {
 	background-attachment: fixed;
 }
 
+.school-logo {
+	cursor: pointer;
+}
+
 .school-logo,
 .login-form {
 	margin-bottom: auto;
